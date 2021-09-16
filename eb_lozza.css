@@ -5,7 +5,15 @@
     border: none;
     text-decoration: none;
 }
-
+:root{
+    --main_color: #F4DFDB;
+    --hover_color:#f1b1a5;
+    --footer_bg:#F4DFDB;
+    --footer_text:#787A7C;
+    --heading_title:#787A7C;
+    --body_text_color:#787A7C;
+    --button_text_color:#787A7C;
+}
 img {
     max-width: 100%;
     width: auto;
@@ -52,6 +60,7 @@ summary {
 body {
     margin: 0;
     padding: 0;
+    color: var(--body_text_color);
 }
 
 blockquote,
@@ -98,7 +107,7 @@ header {
 }
 
 header .top-bar {
-    background: #000;
+    background: var(--body_text_color);
     float: left;
     width: 100%;
 }
@@ -183,7 +192,7 @@ header .massage-us a {
 }
 
 header .massage-us a:hover {
-    color: #cf0a2c;
+    color: var(--main_color);
 }
 
 header .massage-us a img {
@@ -303,7 +312,7 @@ a.contact-us-pop-up {
     font-size: 24px !important;
     color: #101010 !important;
     text-transform: uppercase;
-    border-bottom: 4px solid #cf0a2c;
+    border-bottom: 4px solid  var(--main_color);
     text-align: left !important;
     padding-bottom: 12px !important;
     margin-bottom: 17px;
@@ -316,7 +325,7 @@ a.contact-us-pop-up {
 .labe_content h5,
 .labe_content h6 {
     text-align: left;
-    color: #000000;
+    color: var(--body_text_color);
     padding: 0 !important;
     margin-bottom: 15px !important;
 }
@@ -340,14 +349,14 @@ a.contact-us-pop-up {
 
 .labe_content h5 {
     font-size: 20px !important;
-    color: #000!important;
+    color: var(--body_text_color)!important;
     
 }
 
 .labe_content h6 {
     font-size: 14px !important;
     
-    color: #000 !important;
+    color: var(--body_text_color) !important;
     line-height: 25px !important;
     margin-bottom:0 !important;
     letter-spacing: 0.7px !important;
@@ -371,7 +380,7 @@ a.contact-us-pop-up {
 .labe_content ul a li,
 .labe_content ol li a,
 .labe_content ol a li {
-    color: #cf0a2c !important;
+    color:  var(--main_color) !important;
 }
 
 .labe_content p a {
@@ -421,7 +430,7 @@ span.text {
 
 footer ul li span.labe_close_bottom,
 header ul li span.labe_close_bottom {
-    background: #cf0a2c;
+    background:  var(--main_color);
     padding: 12px 16px !important;
     color: #fff !important;
     bottom: 10px;
@@ -446,7 +455,7 @@ a.labe_close_bottom:hover {
     right: -18px;
     z-index: 10000;
     color: #fff !important;
-    background: #cf0a2c;
+    background:  var(--main_color);
     border-radius: 50%;
     width: 59px;
     height: 59px;
@@ -463,7 +472,7 @@ a.labe_close_bottom:hover {
     right: -20px;
     z-index: 10000;
     color: #fff !important;
-    background: #9c1028;
+    background: var(--hover_color);
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -474,7 +483,7 @@ a.labe_close_bottom:hover {
 .labe_close_bottom:hover,
 .labe_close .fas:hover,
 .labe_close p:hover {
-    background: #9c1028 !important;
+    background: var(--hover_color) !important;
     text-decoration: none;
 }
 
@@ -572,7 +581,7 @@ ul li input {
 }
 
 ul li span.labe_close_bottom {
-    background: #cf0a2c;
+    background:  var(--main_color);
     padding: 12px 16px !important;
     color: #fff !important;
     
@@ -586,7 +595,7 @@ ul li span.labe_close_bottom {
 }
 
 footer ul li span:hover {
-    color: #cf0a2c;
+    color:  var(--main_color);
 }
 
 
@@ -605,7 +614,7 @@ footer ul li span:hover {
 .gallery-title h2 {
     font-size: 36px;
     
-    color: #000;
+    color: var(--body_text_color);
     padding-left: 2px;
 }
 
@@ -871,7 +880,7 @@ footer ul li span:hover {
 .gallery-detail h2 {
     font-size: 20px;
     
-    color: #000;
+    color: var(--body_text_color);
 }
 
 .product-title {
@@ -882,14 +891,14 @@ footer ul li span:hover {
     float: left;
     width: 100%;
     font-size: 25px;
-    color: #282727 !important;
+    color: var(--heading_title) !important;
     margin-bottom: 22px;
     line-height: 42px;
 }
 
 .contact-btn {
-    background: #cf0a2c;
-    color: #fff;
+    background:  var(--main_color);
+    color: var(--button_text_color);
     font-size: 14px;
     text-align: center;
     clear: both;
@@ -899,7 +908,7 @@ footer ul li span:hover {
 }
 
 .contact-btn:hover {
-	background:#9c1028;
+	background:var(--hover_color);
 }
 
 .contact-btn img {
@@ -918,7 +927,7 @@ footer ul li span:hover {
 .description_detail h4,
 .description_detail h5,
 .description_detail h6 {
-    color: #000;
+    color: var(--body_text_color);
     margin: 15px 0;
     letter-spacing: 1px;
     margin-bottom: 41px;
@@ -943,7 +952,7 @@ footer ul li span:hover {
 .description_detail p,
 .description_detail ol {
     margin-bottom: 24px;
-    color: #000;
+    color: var(--body_text_color);
     font-size: 13px;
     line-height: 20px;
     
@@ -1016,7 +1025,7 @@ footer ul li span:hover {
     float: left;
     font-size: 20px;
     cursor: pointer;
-    background: url(https://accessmylogin.s3-ap-southeast-2.amazonaws.com/newbalance2020/img/tab-bg.png);
+    background: url(https://talonb12.github.io/tab-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     border-bottom: 1px solid #e0e0e0;
@@ -1035,7 +1044,7 @@ footer ul li span:hover {
 
 .tabs [id^="tab"]:checked + label {
     color: #161616;
-    background: url(https://accessmylogin.s3-ap-southeast-2.amazonaws.com/newbalance2020/img/tab-bg-active.png);
+    background: url(https://talonb12.github.io/tab-bg-active.png);
     background-repeat: no-repeat;
     background-position: right;
     border-bottom: 0;
@@ -1073,7 +1082,7 @@ footer ul li span:hover {
 .tab-content h4,
 .tab-content h5,
 .tab-content h2 {
-    color: #333333;
+    color: var(--body_text_color);
     margin: 15px 0;
     letter-spacing: 1px;
     margin-bottom: 41px;
@@ -1108,7 +1117,7 @@ footer ul li span:hover {
 
 .tab-content p{
      margin-bottom: 27px;
-     color: #333333;
+     color: var(--body_text_color);
      font-size: 16px;
      line-height: 24px;
      
@@ -1117,7 +1126,7 @@ footer ul li span:hover {
 .tab-content ul,
 .tab-content ol {
     margin: 0 0 25px 30px;
-    color: #333;
+    color: var(--body_text_color);
     font-size: 16px;
     line-height: 26px;
     
@@ -1135,6 +1144,7 @@ footer ul li span:hover {
 .tab-content ul li,
 .tab-content ol li {
 	line-height: 27px;
+    color:var(--body_text_color);
 }
 
 .tab-content ol ol li {
@@ -1184,7 +1194,7 @@ footer ul li span:hover {
 
 #tab-content2 ul li {
     display: inline-block;
-    background: #cf0a2c;
+    background:  var(--main_color);
     font-size: 16px;
     text-align: center;
     clear: both;
@@ -1199,7 +1209,7 @@ footer ul li span:hover {
     color: #fff !important;
 }
 #tab-content2 ul li:hover {
-	background:#9c1028;
+	background:var(--hover_color);
 }
 
 @keyframes scale {
@@ -1222,7 +1232,7 @@ footer {
     padding: 45px 0;
     float: left;
     width: 100%;
-    background: #232323;
+    background: var(--footer_bg);
 }
 
 footer .content_area {
@@ -1236,7 +1246,7 @@ footer .content_area {
 
 .foot_menus h3 {
     font-size: 18px;
-    color: #e1e1e1;
+    color: var(--footer_text);
     text-transform: capitalize;
     margin-bottom: 23px;
 }
@@ -1251,22 +1261,22 @@ footer .content_area {
 }
 
 .foot_menus ul li a {
-    color: #e1e1e1;
+    color: var(--footer_text);
     font-size: 13px;
 }
 
 .foot_menus ul li a:hover {
-    color: #cf0a2c;
+    color:  var(--main_color);
 }
 
 .foot_menus ul li label span {
     cursor: pointer;
-    color: #e1e1e1;
+    color: var(--footer_text);
     font-size: 13px;
 }
 
 .foot_menus ul li label span:hover {
-    color: #cf0a2c;
+    color:  var(--main_color);
 }
 
 .foot_menus img {
@@ -1279,6 +1289,7 @@ footer .content_area {
 footer a,
 .foot_menus ul li label span {
     transition: 0.3s all;
+    color: var(--footer_text);
 }
 
 .foot_menus.foot_menus-2 {
@@ -1299,14 +1310,14 @@ footer a,
 .foot_menus.foot_menus-4 p {
     font-size: 13px;
     line-height: 19px;
-    color: #e1e1e1;
+    color: var(--footer_text);
     clear: both;
     margin-bottom: 35px;
 }
 
 .foot_menus.foot_menus-4 ul li a {
-    background: #cf0a2c;
-    color: #fff;
+    background:  var(--main_color);
+    color: var(--button_text_color);
     font-size: 16px;
     text-align: center;
     clear: both;
@@ -1314,7 +1325,7 @@ footer a,
     text-transform: uppercase;
 }
 .foot_menus.foot_menus-4 ul li a:hover {
-    background: #9c1028;
+    background: var(--hover_color);
 }
 
 
@@ -1326,7 +1337,7 @@ footer a,
     width: 174px;
     height: 40px;
     display: block;
-    background: #F4DFDB;
+    background: #007932;
     font-size: 17px;
     color: #fff;
     text-align: center;
@@ -1339,7 +1350,7 @@ footer a,
 /*---------------------copyrights //start---------------------*/
 
 .copyrights {
-    background: #232323;
+    background: var(--footer_bg);
     float: left;
     width: 100%;
     text-align: center;
@@ -1367,7 +1378,7 @@ footer a,
 #footerwrap {
     float: left;
     width: 100%;
-    background: #DE9D9A;
+    background: #fff;
     padding-bottom: 10px;
 }
 

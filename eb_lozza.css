@@ -167,8 +167,8 @@ header .web-logo {
 }
 header .web-logo img {
     width: 100%;
-    max-width: 100px;
-    max-height: 50px;
+    max-width: 150px;
+    max-height: 75px;
 }
 
 header .massage-us {

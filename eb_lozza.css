@@ -44,7 +44,8 @@ header,
 hgroup,
 main,
 menu,
-nav,
+
+,
 section,
 summary {
     display: block;
@@ -166,8 +167,8 @@ header .web-logo {
 }
 header .web-logo img {
     width: 100%;
-    max-width: 87px;
-    max-height: 43px;
+    max-width: 100px;
+    max-height: 50px;
 }
 
 header .massage-us {

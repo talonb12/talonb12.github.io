@@ -596,7 +596,7 @@ ul li span.labe_close_bottom {
 }
 
 footer ul li span:hover {
-    color:  var(--main_color);
+    color:  var(--hover_color);
 }
 
 

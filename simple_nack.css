@@ -1267,7 +1267,7 @@ footer .content_area {
 }
 
 .foot_menus ul li a:hover {
-    color:  var(--main_color);
+    color:  var(--hover_color);
 }
 
 .foot_menus ul li label span {

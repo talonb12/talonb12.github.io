@@ -193,7 +193,7 @@ header .massage-us a {
 }
 
 header .massage-us a:hover {
-    color: var(--main_color);
+    color: var(--hover_color);
 }
 
 header .massage-us a img {

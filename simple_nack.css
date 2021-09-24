@@ -6,13 +6,13 @@
     text-decoration: none;
 }
 :root{
-    --main_color: #F4DFDB;
-    --hover_color:#f1b1a5;
-    --footer_bg:#F4DFDB;
-    --footer_text:#787A7C;
-    --heading_title:#787A7C;
-    --body_text_color:#787A7C;
-    --button_text_color:#787A7C;
+    --main_color: #AFCBFF;
+    --hover_color:#4B6AA3;
+    --footer_bg:#AFCBFF;
+    --footer_text:#333333;
+    --heading_title:#333333;
+    --body_text_color:#333333;
+    --button_text_color:#333333;
 }
 img {
     max-width: 100%;

@@ -1275,6 +1275,9 @@ footer .content_area {
     color: var(--footer_text);
     font-size: 13px;
 }
+.foot_menus. {
+	color:  var(--hover_color);
+}
 
 .foot_menus ul li label span:hover {
     color:  var(--hover_color);

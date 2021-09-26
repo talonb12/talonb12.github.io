@@ -1293,6 +1293,7 @@ footer .content_area {
 footer a,
 .foot_menus ul li label span {
     transition: 0.3s all;
+    justify-content: center;
     color: var(--footer_text);
 }
 

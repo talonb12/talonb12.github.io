@@ -1278,7 +1278,6 @@ footer .content_area {
     cursor: pointer;
     color: var(--footer_text);
     font-size: 13px;
-    padding: 0px 15px;
 }
 
 .foot_menus ul li label span:hover {

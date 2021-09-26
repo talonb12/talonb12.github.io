@@ -1550,10 +1550,10 @@ header .web-logo {
 
 .foot_menus ul {
 	width:100%;
-	display:inline-block;
+	display:inline;
 }
 .foot_menus ul li {
-	display:inline-block;
+	display:inline;
 	padding:0 10px;
 }
 }

@@ -1550,6 +1550,21 @@ header .web-logo {
 	width:100%;
 	
 }
+
+
+.foot_menus ul {
+	list-style: none;
+	display: block;
+	justify-content: center;
+	width: auto;
+}
+.foot_menus ul li {
+	display: inline;
+	max-width: max-content;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding: 15px 0px;
+}
 .foot_menus ul li {
 	display:inline;
 	padding:0 10px;

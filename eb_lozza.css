@@ -1257,7 +1257,6 @@ footer .content_area {
 .foot_menus ul {
     list-style: none;
     justify-content: center;
-    display: flex;
 }
 
 .foot_menus ul li {

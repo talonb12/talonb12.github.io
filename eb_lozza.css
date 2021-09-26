@@ -1246,6 +1246,7 @@ footer .content_area {
 }
 
 .foot_menus h3 {
+    text-align: center;
     font-size: 18px;
     color: var(--footer_text);
     text-transform: capitalize;
@@ -1255,6 +1256,7 @@ footer .content_area {
 
 .foot_menus ul {
     list-style: none;
+    justify-content: center;
 }
 
 .foot_menus ul li {

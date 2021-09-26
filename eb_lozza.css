@@ -1548,7 +1548,7 @@ header .web-logo {
 
 .foot_menus ul {
 	width:100%;
-	display:inline;
+	display:flex;
 }
 .foot_menus ul li {
 	display:inline;

@@ -1261,6 +1261,7 @@ footer .content_area {
 
 .foot_menus ul li {
     padding-bottom: 5px;
+    justify-content: center;
 }
 
 .foot_menus ul li a {

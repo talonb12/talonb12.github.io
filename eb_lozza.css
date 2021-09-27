@@ -1450,7 +1450,7 @@ footer {
 }
 .gallery-bg {
 	width: 100%;
-	max-width: 55%;
+	max-width: 100%;
 	float: left;
 }
 .flex-div {
@@ -1825,7 +1825,7 @@ header .web-logo {
 .gallery-bg {
 	width: 100%;
 	max-width: 100%;
-	float: left;
+	float: inherit;
 }
 #img-gallery-box, .promo-box {
 	display: none;

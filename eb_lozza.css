@@ -1689,7 +1689,14 @@ z-index: -9;
 	display:none !important;
 }
 }
+@media only screen and (max-width: 1149px) {
 
+
+.mobilehidden {
+   display: none !important;
+}
+
+}
 @media only screen and (max-width: 1130px) {
 
 }

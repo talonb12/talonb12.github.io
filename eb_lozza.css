@@ -1450,7 +1450,7 @@ footer {
 }
 .gallery-bg {
 	width: 100%;
-	max-width: 20%;
+	max-width: 45%;
 	float: left;
 }
 .flex-div {
@@ -1691,9 +1691,25 @@ z-index: -9;
 }
 @media only screen and (max-width: 1149px) {
 
-
+    .foot_menus.foot_menus-1,
+    .foot_menus.foot_menus-4 {
+        display: none;
+    }
+	
+.foot_menus.foot_menus-3 {
+    margin-left: 0;
+    text-align: center;
+	width:100%;
 }
 
+.foot_menus ul {
+	width:100%;
+	
+}
+.foot_menus ul li {
+	display:inline;
+	padding:0 10px;
+}
 }
 @media only screen and (max-width: 1130px) {
 

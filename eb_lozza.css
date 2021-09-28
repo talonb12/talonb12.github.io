@@ -1449,8 +1449,8 @@ footer {
 	margin: 0;
 }
 .gallery-bg {
-	width: 45%;
-	max-width: 45%;
+	width: 100%;
+	max-width: 20%;
 	float: left;
 }
 .flex-div {
@@ -1685,7 +1685,9 @@ z-index: -9;
 }
 
 @media only screen and (min-width: 1150px) {
-
+.desktophidden {
+	display:none !important;
+}
 }
 @media only screen and (max-width: 1149px) {
 header .temp-header {
@@ -1706,7 +1708,7 @@ header .web-logo {
    display: none !important;
 }
 .gallery {
-    width: 45%;
+    width: 100%;
 }
 .white-box {
     height: 530px;
@@ -1739,9 +1741,11 @@ header .web-logo {
 }
 
 .gallery-detail {
-    width: 45%;
+    float: none;
+    width: 100%;
     margin-top: 30px;
-    float: right;
+    clear: both;
+    float: left;
     border-top: 1px solid #c4c4c4;
     padding-top: 45px;
 }
@@ -1819,9 +1823,9 @@ header .web-logo {
 	float: none;
 }
 .gallery-bg {
-	width: 45%;
-	max-width: 45%;
-	float: left;
+	width: 100%;
+	max-width: 100%;
+	float: inherit;
 }
 #img-gallery-box, .promo-box {
 	display: none;

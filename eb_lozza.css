@@ -1672,7 +1672,7 @@ z-index: -9;
 
 @media only screen and (max-width: 1150px) {
 .gallery-detail {
-	width: 498px;
+	width: 45%;
 }
 
 .foot_menus.foot_menus-2 {
@@ -1765,9 +1765,9 @@ z-index: -9;
 	float: none;
 }
 .gallery-bg {
-	width: 100%;
-	max-width: 100%;
-	float: inherit;
+	width: 45%;
+	max-width: 45%;
+	float: left;
 }
 #img-gallery-box, .promo-box {
 	display: none;

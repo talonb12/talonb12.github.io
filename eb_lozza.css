@@ -1822,9 +1822,9 @@ header .web-logo {
 	float: none;
 }
 .gallery-bg {
-	width: 100%;
-	max-width: 100%;
-	float: inherit;
+	width: 45%;
+	max-width: 45%;
+	float: left;
 }
 #img-gallery-box, .promo-box {
 	display: none;

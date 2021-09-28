@@ -1672,7 +1672,7 @@ z-index: -9;
 
 @media only screen and (max-width: 1150px) {
 .gallery-detail {
-	width: 400px;
+	width: 498px;
 }
 
 .foot_menus.foot_menus-2 {
@@ -1726,12 +1726,29 @@ header .web-logo {
     left: 50%;
 }
 
-
+.gallery-container h1 {
+    text-align: center;
+    background: #f1f1f1;
+    padding: 10px 20px;
+    margin: 0 auto 10px;
+    font-size: 25px;
+    font-weight: normal;
+    width: 98%;
+}
 .features ul,
 .features ul li {
     width: 100%;
 }
 
+.gallery-detail {
+    float: none;
+    width: 100%;
+    margin-top: 30px;
+    clear: both;
+    float: left;
+    border-top: 1px solid #c4c4c4;
+    padding-top: 45px;
+}
     .foot_menus.foot_menus-1,
     .foot_menus.foot_menus-4 {
         display: none;

@@ -864,7 +864,6 @@ footer ul li span:hover {
     float: right;
     box-sizing: border-box;
     width: 50%;
-    max-height: 836px;
     overflow-y: auto;
     background: #fff;
     margin: 0 6px 0 0;

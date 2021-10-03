@@ -1026,7 +1026,7 @@ footer ul li span:hover {
     float: left;
     font-size: 20px;
     cursor: pointer;
-    background: url(https://talonb12.github.io/tab-bg.png);
+    background: url(https://talonb12.github.io/tab-bg-simplenacks.png);
     background-repeat: no-repeat;
     background-position: right;
     border-bottom: 1px solid #e0e0e0;
@@ -1045,7 +1045,7 @@ footer ul li span:hover {
 
 .tabs [id^="tab"]:checked + label {
     color: #161616;
-    background: url(https://talonb12.github.io/tab-bg-active.png);
+    background: url(https://talonb12.github.io/tab-bg-active-simplenacks.png);
     background-repeat: no-repeat;
     background-position: right;
     border-bottom: 0;
